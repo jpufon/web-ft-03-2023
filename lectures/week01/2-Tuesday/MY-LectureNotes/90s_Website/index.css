@@ -8,4 +8,32 @@ body {
   text-align: center;
     
 }
+#video{
+    
+    color: black;
+    padding: 5px;
+    text-align: center;
+
+}
+#image{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+
+}
+.bolded { font-weight: bold; }
+#lewix{
+    text-align: center;
+    background-color: azure;
+
+
+}
+#place {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 
