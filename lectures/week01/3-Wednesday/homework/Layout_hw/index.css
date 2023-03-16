@@ -38,21 +38,26 @@
     bottom: 0;
 
 }
-.holy{
-    display: grid;
-    flex-direction: column;
-    min-height: 100vh;
-}
+
 
 .top{
     color: black;
-    flex:  0 0 100px;
-
+    top: 5px;
+    
+    left: 5px;
+    height:  300px;
+    width: 20%;
+    position:absolute;
+    display: block;
 }
 .main{
-    position: absolute;
-    height: 80%;
-    width: 60%;
+    top: 5px;
+    
+    left: 5px;
+    height:  300px;
+    width: 20%;
+    position:absolute;
+    display: block;
     color: red;
     display: block;
 }
