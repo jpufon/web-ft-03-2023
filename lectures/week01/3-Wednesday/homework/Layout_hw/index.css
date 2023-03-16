@@ -1,0 +1,81 @@
+/*body{
+    position: relative;
+    background-color: black;
+
+}*/
+
+.header{
+    background-color: rgb(10, 10, 10);
+    top: 5px;
+    
+    left: 5px;
+    height:  300px;
+    width: 20%;
+    position:absolute;
+    display: block;
+    
+}
+.footer{
+    background-color: rgb(245, 224, 220);
+    
+    height: 300px;
+    width: 80%;
+    position: absolute;
+    left: 150px;
+    display: block;
+    top: 5px;
+
+}
+.sides{
+    background-color: rgb(143, 29, 7);
+    
+    height: 300px;
+    width: 20%;
+    position: absolute;
+    right: 110px;
+    display: block;
+    top: 5px;
+    bottom: 0;
+
+}
+.holy{
+    display: grid;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.top{
+    color: black;
+    flex:  0 0 100px;
+
+}
+.main{
+    position: absolute;
+    height: 80%;
+    width: 60%;
+    color: red;
+    display: block;
+}
+.sid{
+    position: absolute;
+    height: 80%;
+    width: 20%;
+    color: blue;
+    display: block;
+
+}
+.side{
+    position: absolute;
+    height: 80%;
+    width: 20%;
+    color: blueviolet;
+    display: block;
+}
+.foot{
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    color: aquamarine;
+    display: block;
+}
+
