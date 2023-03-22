@@ -1,0 +1,14 @@
+{
+  "name": "hw-js101-datatypes",
+  "version": "1.0.0",
+  "description": "Declare a variable called \"firstName\" whose value is your first name Declare a variable called \"lastName\" whose value is your first name Declare a variable called \"name\" whose value is the concatenation of firstName and lastName",
+  "main": "homework.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}

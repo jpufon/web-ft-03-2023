@@ -1,0 +1,10 @@
+a string interpollation allows you to inser information into literal literal text 
+string interpollation syntax `string text ${expression} string text`
+string interpolation allows you to insert expressions in litteral text whereas a concatenation is just a joining two strings tohether
+yes you can 
+yes you can use expression
+double quote will print everything as a string whereas single quote will print strings and handle expresions as expresion.
+yes you can use it with template litterals 
+you use a backslash  
+not sure
+in both ways you can use string interpollation
