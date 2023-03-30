@@ -18,5 +18,16 @@ let covidData = require('./data');
  * 
  */
 
+function arr(array){
+    let Narr = []
 
+    for(i=0; i<array.length ; i++){
+        Narr.push(array[i].Name)
+   
+        }
 
+return Narr
+       
+}
+
+console.log(arr(covidData));
