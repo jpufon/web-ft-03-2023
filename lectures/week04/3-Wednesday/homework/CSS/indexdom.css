@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+
+    font-family: sans-serif;
+}
+#nav-bar{
+    position: sticky;
+    z-index: 10;
+    padding: 50px;
+}
+p{
+    font-size: 25px;
+}
+.firstp{
+    background-color: gray;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+h2{
+    color: rgb(77, 77, 190);
+}
+commen{
+    background-color: yellow;
+}
