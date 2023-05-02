@@ -1,0 +1,93 @@
+Check to see if two provided strings are anagrams of each other.
+One string is an anagram of another if it uses the same characters in the same quantity.
+Only consider characters, not spaces or punctuation. Consider capital letters to be the same lower case
+word.replace(/[^\w]/g, “”)
+functions(“two”, “three”) => false
+functions(‘rail safety’, ‘fairy tales’) => true
+
+
+function anagram(str1, str2){
+assuming the white spaces have been remove 
+let str1nospace = str1.replace(/[^\w]/g, “”)
+let str2nospace = str1.replace(/[^\w]/g, “”)
+or 
+let str1nospace = str1.split("").join("")
+let str2nospace = str2.split("").join("")
+if(srt1.length !== str2.length){
+    return false
+}
+first for loop trying to keep track of first str1 i will use mapping or whatever the line of thinking is
+
+element = {}
+for(let char in str1 ){
+    if(element[char]){
+        element[char]++
+    }else{
+        element[char] = 1
+    }
+}
+
+for(let char in str2){
+    if(!element[char]){
+        return false
+    }else{
+        element[char]--;
+    }
+}
+retrun true 
+}
+
+Given a string, Write a function that returns the character that is most commonly used in the string.
+
+
+
+
+
+10:28
+yourFunctionName('abccccddde') ---> c
+yourFunctionName('1111112345') ---->1
+
+
+funtion commonused(str){
+let str1 = str.split("")
+characters = {}
+
+for(let char in str1){
+    if(str1[char]){
+        str1[char]++;
+    
+    }
+    str1[char] = 1;
+
+}
+
+for(let char in element){
+    let character = 0
+    if(element[char] > charater ){
+        character = element[char]
+        let alotOfoccurence = char
+    }
+    else{
+        return alotOfoccurence
+    }
+}
+
+}
+
+
+
+let sum  = [3,4,5,6]
+
+function summation(arr){
+let num = 0
+for(let i =0 ; arr.length; i++){
+     num+=arr[i]
+}
+return num
+}
+
+
+
+for (let val of sum){
+    val += val
+}
