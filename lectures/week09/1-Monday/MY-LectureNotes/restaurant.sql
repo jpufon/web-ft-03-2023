@@ -1,0 +1,18 @@
+-- CREATE TABLE restaurant (
+--   id SERIAL PRIMARY KEY,
+--   name VARCHAR(255) ,
+--   distance DECIMAL(6,2) ,
+--   stars INTEGER ,
+--   category VARCHAR(50) ,
+--   favorite_dish VARCHAR(255),
+--   does_takeout BOOLEAN ,
+--   last_visit DATE 
+-- );
+-- INSERT INTO restaurant VALUES(
+--     DEFAULT, 'Slurp', 4, 4.5, 'Ramen', 'brisket ramen', TRUE, '2022-07-04'),
+-- (DEFAULT, 'The Union Kitchen', 1, 4, 'American', 'Beignets', TRUE, '2022-05-04'),
+-- (DEFAULT, 'Crust Pizza Co', 1, 5, 'Pizza', 'BBQ Chicken Pizza', TRUE, '2022-01-04'),
+-- (DEFAULT, 'Island Fin Poke Company', 1, 3, 'Poke', 'Vegetable Poke', TRUE, '2021-11-14'),
+-- (DEFAULT, 'Ginger Thai', 4, 4, 'Asian', 'Pad THai', TRUE, '2022-04-14'),
+-- (DEFAULT, 'Olive Garden', 5, 4.5, 'Italian', 'pasta', TRUE, '2021-10-04'),
+-- (DEFAULT, 'Torchy', 8, 4.7, 'Tex-Mex', 'burrito', TRUE, '2021-10-04');
