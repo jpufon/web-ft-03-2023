@@ -1,0 +1,20 @@
+function isPalidrom(string){
+    if(string.lenthg<=0){
+        return true //if this is true we return meaning it is a palidrome
+    }else{
+        if (string[0] === string[string.length - 1]) {//if start is equal to end we run next cmd
+            return(isPalidrome(string.slice(1,-1)))// then we can recall the function and slice the end and start of word and passed the string back again
+        }else{
+            return true
+        }
+            
+    }
+}
+//
+function reverse(string){
+    if(string == "){
+        return string
+    }else{
+        return reverse()
+    }
+}
